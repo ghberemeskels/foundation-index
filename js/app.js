@@ -101,7 +101,7 @@ class Megaroster {
       return currentStudent.id === student.id
     })
 
-  moveUp(student, ev) {
+  moveDown(student, ev) {
     const btn = ev.target
     const li = btn.closest('.student')
 
